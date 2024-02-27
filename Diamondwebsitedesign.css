@@ -1,0 +1,212 @@
+        /****************************************************/
+        /****************************************************/
+        /*******************EFFECT DIAMONDS******************/
+        /****************************************************/
+        /****************************************************/
+.shiny img {
+  -webkit-filter: brightness(40%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  width: 170px;
+  height: 170px;
+  float:center;
+}
+
+.shiny img:hover {
+-webkit-filter: brightness(120%);
+}
+        /****************************************************/
+        /****************************************************/
+        /*******************NAVIGATION BAR*******************/
+        /****************************************************/
+        /****************************************************/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+        /*******************NAV HEADER STYLE*******************/
+nav{
+  background-image: linear-gradient(to left, #586268, #626781);
+  color: transparent;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  height:max-content;
+  position: sticky;
+}
+
+        /*******************DROPDOWN BUTTON STYLE*****************/
+.dropbtn {
+  background-color: #93b0c296;
+  color: rgb(255, 255, 255);
+  padding: 25px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: inline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+        /*******************DROPDOWN POSITION*******************/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+        /******************DROPDOWN CONTENT***************/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #7f9bb4;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(40, 199, 199, 0.651);
+  z-index: 1;
+}
+
+        /*******************LINKS IN DROPDOWN*******************/
+.dropdown-content a {
+  color: rgb(68, 233, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+  position: relative;
+}
+
+        /*******************DROPDOWN LINK COLOR*******************/
+.dropdown-content a:hover {background-color: #556e7e}
+
+        /*******************HOVER MENU DROPDOWN*******************/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+        /*******************DROPDOWN BGCOLOR*******************/
+.dropdown:hover .dropbtn {
+  background-color: #2e2c5a;
+}
+
+        /* CYAN HOVER TEMPLATE
+.___:hover{
+    background-color:rgba(110, 197, 197, 0.856); 
+    font: size 30px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    display:inline;
+    transition: 500ms ease-in-out;}
+*/
+
+
+
+
+
+
+        /****************************************************/
+        /****************************************************/
+        /***************BODY STYLES (DEFAULT)****************/
+        /****************************************************/
+        /****************************************************/
+
+body{
+  background-color:rgba(110, 197, 197, 0.856);
+  font-family: "Helvetica", Sans-Serif;
+  background-image: url('bluebackground.jpg');
+  background-size: cover;
+  margin-top: 0px;
+  padding: 30px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(93, 124, 182);
+  text-align: center;
+  font-size: 50px;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 30px;
+
+}
+
+
+
+        /****************************************************/
+        /****************************************************/
+        /************************FOOTER**********************/
+        /****************************************************/
+        /****************************************************/
+
+
+footer {
+  background-color: steelblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.socials a {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  background-size: cover;
+ border-radius: 50%;
+}
+
+.hanns {
+  background-image: url('facebooklogo.png');
+}
+
+.cameron {
+  background-image: url('facebooklogo.png');
+}
+
+.maam-pamela {
+  background-image: url('facebooklogo.png');
+}
+
+.sir-jeric {
+  background-image: url('facebooklogo.png');
+}
+
+
+
+        /*********************************************************/
+        /*******************CODE IN ADVISERS.HTML*****************/
+        /*********************************************************/
+        /*********************************************************/
+
+
+        /*******************STYLES (CUSTOMIZED)*******************/
+.bodystyle {
+  background-color: aliceblue;
+  height: max-content;
+}
+
+       /***************IMAGE CONTAINERS******************/
+
+#container1 {
+    position:relative;
+    background: #58546e;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: rgb(230, 230, 230);
+    box-shadow: 20px 20px #303575;
+    transition: all .4s ease;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    height: fit-content;
+    text-align: center;
+}
+        
+#container1:hover {
+    background-color: #303575;
+    box-shadow: 120px 80px 40px 20px #58546e94;
+    height: fit-content;
+}
+
